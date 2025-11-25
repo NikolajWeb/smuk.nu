@@ -1,0 +1,14 @@
+.button {
+    background-color: #FA96AA;
+    padding: 1rem 2.5rem;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
