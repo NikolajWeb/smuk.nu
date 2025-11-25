@@ -1,0 +1,8 @@
+.member {
+    background-color: #F7F0F2;
+    padding: 2.8rem;
+
+    & h2 {
+        font-size: 2.5rem;
+    }
+}

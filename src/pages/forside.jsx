@@ -1,4 +1,7 @@
 import PageHeader from "../components/pageHeader/pageHeader";
+import ReviewSection from "../components/reviewSection/reviewSection";
+import ProductSection from "../components/cardSection/cardSection";
+import Member from "../components/member/member"
 import bgImg from "../assets/blomsterpige.jpg";
 
 const Forside = () => {
@@ -11,6 +14,11 @@ const Forside = () => {
                 buttonText="Se udvalgte produkter"
                 bgImg={bgImg}
             />
+            <ProductSection />
+            <ReviewSection />
+            <Member/>
+
+
         </article>
     );
 };
