@@ -1,0 +1,54 @@
+.form {
+  max-width: 350px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  label {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  input,
+  textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #707070;
+    background: none;
+    color: black;
+  }
+
+  button {
+    margin-right: auto;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.success {
+    background-color: #F7F0F2;
+    padding: 3rem 4rem;
+    max-width: 500px; 
+    text-align: center;
+    border-radius: 10px;
+
+    img {
+        margin-block: 2rem;
+        max-width: 150px;
+    }
+}
+
+.name {
+    color: #FA96AA;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-block: 1rem;
+}
+
+
+
+

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../card/card";
 
-const ProductSection = () => {
+const ProductSection = ({titleOne, titleTwo}) => {
     const [products, setProducts] = useState([]);
 
     const fetchProducts = async () => {
@@ -24,7 +24,7 @@ const ProductSection = () => {
     return (
         <section className="container">
             <h1 style={{ marginBlock: "2rem 1rem", fontSize: "3rem" }}>
-                UDVALGT <br /><span style={{ color: "#FA96AA", fontWeight: "bold", }}>SKØNHED</span>
+                {titleOne} <br /><span style={{ color: "#FA96AA", fontWeight: "bold", }}>{titleTwo}</span>
             </h1>  
 
             <div>

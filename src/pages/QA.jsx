@@ -10,6 +10,7 @@ const QA = () => {
                 titleOne="Spørg om sunhed"
                 description="Herunder har vi samlet spørgsmål og svar om sundhed. Mange spørgsmål kommer fra medlemmer af smuknu.dk og andre er gode råd valgt af vores skønhedsredaktion"
                 bgImg={bgImg}
+                variant="pink"
             />
             <QaSection />
             <Member />

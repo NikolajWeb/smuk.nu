@@ -14,7 +14,7 @@ const Forside = () => {
                 buttonText="Se udvalgte produkter"
                 bgImg={bgImg}
             />
-            <ProductSection />
+            <ProductSection titleOne="UDVALGT" titleTwo="SKØNHED" />
             <ReviewSection />
             <Member/>
 
