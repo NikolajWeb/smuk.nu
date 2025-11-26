@@ -27,17 +27,17 @@ const Navigation = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/QA" onClick={closeMenu}>
+          <NavLink to="/products" onClick={closeMenu}>
             Vores produkter
           </NavLink>
         </li>
         <li>
-          <NavLink to="/3" onClick={closeMenu}>
-            Spørg om sundhed
+          <NavLink to="/QA" onClick={closeMenu}>
+            Spørg om sunhed
           </NavLink>
         </li>
         <li>
-          <NavLink to="/4" onClick={closeMenu}>
+          <NavLink to="/medlem" onClick={closeMenu}>
             Bliv medlem
           </NavLink>
         </li>

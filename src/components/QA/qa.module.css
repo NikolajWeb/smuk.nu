@@ -1,0 +1,43 @@
+.question {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 10px;  
+    height: 80px;
+    font-size: 0.7rem;
+    cursor: pointer; 
+
+    & h2 {
+        line-height: 20px;
+        text-align: left;
+    }
+
+    svg {
+        transition: color 0.3s ease; /* Smooth farveskift på ikonet */
+    }
+}
+
+.pinkBar {
+    height: 1px;
+    background-color: #FA96AA;
+    width: 350px;
+    justify-self: center;
+}
+
+.answer {
+    width: 350px;
+    justify-self: center;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 20px;
+    transition: ease .4s;
+}
+
+.qa {
+    margin: 0px 20px 20px 20px;
+}
+
+.question.active svg {
+    color: #FA96AA; 
+}
