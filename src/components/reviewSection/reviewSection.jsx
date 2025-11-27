@@ -11,7 +11,6 @@ const ReviewSection = () => {
                 "https://smuknu-vomg9.ondigitalocean.app/reviews/"
             );
             const data = await response.json();
-            console.log(data); 
             setReviews(data.data);
         } catch (error) {
             console.log("Fejl ved fetch:", error);
