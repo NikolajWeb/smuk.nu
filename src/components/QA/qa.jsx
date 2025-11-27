@@ -6,14 +6,14 @@ const QA = ({ question, answer }) => {
     const [showAnswer, setShowAnswer] = useState(false);
 
     const handleClick = () => {
-        setShowAnswer(prev => !prev); // toggler visningen
+        setShowAnswer(prev => !prev);
     };
 
     return (
         <section className={styles.qa}>
 
             <div className={styles.question} onClick={handleClick}>
-                <FaQuestion size={35}  color={showAnswer ? "#FA96AA" : "lightgrey"} /* ændrer farve ved klik */ />
+                <FaQuestion size={35}  color={showAnswer ? "#FA96AA" : "lightgrey"}/>
                 <h2>{question}</h2>
             </div>
 

@@ -10,7 +10,7 @@ const ProductSection = ({titleOne, titleTwo}) => {
                 "https://smuknu-vomg9.ondigitalocean.app/products/"
             );
             const data = await response.json();
-            console.log(data); // Til debug
+            console.log(data);
             setProducts(data.data);
         } catch (error) {
             console.log("Fejl ved fetch:", error);
@@ -32,7 +32,7 @@ const ProductSection = ({titleOne, titleTwo}) => {
                     <Card
                         key={product._id}
                         title={product.title}
-                        price={product.price} // Antager der er et price-felt
+                        price={product.price}
                         image={product.image}
                     />
                 ))}

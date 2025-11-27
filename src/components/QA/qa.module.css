@@ -13,7 +13,7 @@
     }
 
     svg {
-        transition: color 0.3s ease; /* Smooth farveskift på ikonet */
+        transition: color 0.3s ease;
     }
 }
 

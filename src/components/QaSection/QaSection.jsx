@@ -1,25 +1,22 @@
 import { useEffect, useState } from "react";
-import QA from "../QA/qa"; // Sørg for, at QA-komponenten er korrekt lavet
+import QA from "../QA/qa"; 
 
 const QASection = () => {
-    // State til QAs
     const [qas, setQAs] = useState([]);
 
-    // Fetch funktion
     const fetchQAs = async () => {
         try {
             const response = await fetch(
                 "https://smuknu-vomg9.ondigitalocean.app/qas/"
             );
             const data = await response.json();
-            console.log(data); // Til debug
+            console.log(data);
             setQAs(data.data);
         } catch (error) {
             console.log("Fejl ved fetch:", error);
         }
     };
 
-    // useEffect kører kun én gang ved mount
     useEffect(() => {
         fetchQAs();
     }, []);

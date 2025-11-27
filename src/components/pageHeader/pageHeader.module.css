@@ -1,3 +1,5 @@
+
+/* Original style */
 .header {
     position: relative;
     width: 100%;
@@ -25,16 +27,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
+/* Dark style */
 .header.dark {
     position: relative;
     width: 100%;
@@ -66,17 +59,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* Pink style */
 .header.pink {
     position: relative;
     width: 100%;
@@ -109,7 +92,7 @@
 
 
 
-
+/* Member style */
 .header.member {
     position: relative;
     width: 100%;
@@ -132,7 +115,7 @@
 
 .header.member .content {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     width: 100%;
     background-color: white;

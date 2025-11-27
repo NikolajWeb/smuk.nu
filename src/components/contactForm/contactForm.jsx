@@ -1,8 +1,10 @@
 import styles from "./contactForm.module.css";
-import Button from "../button/Button";
+import Button from "../button/button";
 import cream from "/src/assets/cream.png"
 import { useState } from "react";
 import { useForm } from "react-hook-form";
+import { NavLink } from "react-router";
+
 
 const ContactForm = () => {
   const [success, setSuccess] = useState(false);
@@ -34,7 +36,9 @@ const ContactForm = () => {
         <p>Vi er enormt glade for at få dig som medlem.</p>
         <img src={cream} alt="cream" />
         <p>Kig i din inbox – vi har sendt en lille velkomstgave.</p>
-        <Button buttonText={"Til Forsiden"} />
+        <NavLink to="/">
+            <Button buttonText={"Til Forsiden"} />
+        </NavLink>
       </div>
     );
   }
