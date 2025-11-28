@@ -5,6 +5,7 @@ import { NavLink } from "react-router";
 
 const PageHeader = ({ titleOne, description, button, buttonText, bgImg, variant }) => {
     return (
+        /* Variant gør så jeg kan vælge imellem hvilke versioner af css der skal på dem */
         <header className={`${styles.header} ${variant ? styles[variant] : ""}`}>
             <img src={bgImg} />
             <div className={styles.content}>
